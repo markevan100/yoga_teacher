@@ -4,6 +4,10 @@ import image1 from './img7.jpg';
 
 const about = props => (
   <React.Fragment>
+
+
+    <p className={classes.Name}>Johanna Modak</p>
+
     <div className={classes.About}>
       Hi, I'm Johanna. I am a yoga teacher (200hr Yoga Alliance Certified), gut
       science enthusiast, health investigator, sucker for health food marketing,
