@@ -6,12 +6,25 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  
-
 }
 
-@media (min-width: 500px) {
+.SocialHold {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 10px;
+}
+
+
+
+@media (max-width: 800px) {
   .NavigationItems {
     flex-flow: row;
+  }
+
+  .SocialHold {
+    position: relative;
+    display: block;
+    text-align: center;
   }
 }
