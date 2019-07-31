@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faYoutube,
   faLinkedin,
   faTwitter,
   faInstagram
@@ -11,12 +12,9 @@ import './SocialFollow.css';
 export default function SocialFollow() {
   return (
     <div>
-      <a
-        href="https://www.youtube.com/watch?v=gxK73-4RIvA"
-        className="youtube social"
-      >
-        <FontAwesomeIcon icon={faYoutube} size="2x" />
-      </a>
+      <Link to="/contact">
+        <FontAwesomeIcon icon={faEnvelope} className="email social"/>
+      </Link>
       <a href="https://twitter.com/ArianaGrande?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" className="twitter social">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>

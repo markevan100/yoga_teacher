@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Blog1 from './components/Blogs/Blog/Blog1/Blog1';
 import Blog2 from './components/Blogs/Blog/Blog2/Blog2';
 import Blogs from './components/Blogs/Blogs';
+import Contact from './components/Contact/Contact';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/blog1' component={Blog1} />
         <Route path='/blog2' component={Blog2} />
         <Route path='/blogs' component={Blogs} />
+        <Route path='/contact' component={Contact} />
     </main>
   );
 }

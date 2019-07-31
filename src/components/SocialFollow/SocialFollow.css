@@ -1,25 +1,26 @@
-a.social {
+.social {
   margin: 0 1rem;
   transition: transform 250ms;
   display: inline-block;
 }
 
-a.social:hover {
+.social:hover {
   transform: translateY(-2px);
 }
 
-a.youtube {
-  color: #eb3223;
+.email {
+  color: black;
+  font-size: 33px;
 }
 
-a.twitter {
+.twitter {
   color: #49a1eb;
 }
 
-a.linkedin {
+.linkedin {
   color: #0e76a8;
 }
 
-a.instagram {
+.instagram {
   color: black;
 }
